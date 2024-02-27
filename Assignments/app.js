@@ -327,6 +327,49 @@
 
 // Q17:
 
+// Ask user for input
+// var userInput = prompt('Enter any text, number, true/false, or leave blank for undefined:');
+
+// Parse input to the appropriate data type
+// var parsedInput;
+
+// if (userInput === '') {
+//     parsedInput = undefined;
+// } else if (userInput.toLowerCase() === 'true') {
+    // parsedInput = true;
+// } else if (userInput.toLowerCase() === 'false') {
+//     parsedInput = false;
+// } else if (!isNaN(userInput)) {
+//     parsedInput = parseFloat(userInput);
+// } else {
+//     parsedInput = userInput;
+// }
+
+// Determine the type of input
+// var inputType = typeof parsedInput;
+
+// Display result
+// alert('The data type of your input is ' + inputType + '.');
+
+
+// var userInput = prompt('Enter any text, number, true/ false, or leave blank to check the data type of input')
+// var parsedInput;
+// Number(userInput) === NaN
+
+// if(userInput === ""){
+// parsedInput = undefined;
+// }else if(userInput.toLocaleLowerCase() === 'true'){
+// parsedInput = true;
+// }else if (userInput.toLocaleLowerCase() === 'false'){
+// parsedInput = false;
+// } else if(!isNaN(userInput)){
+// parsedInput = parseFloat(userInput);
+// } else {
+//     parsedInput = userInput
+// }
+
+// var inputType = typeof parsedInput;
+// console.log('The datatype of your input is ' + inputType + "...!");
 
 
 // Q18:
