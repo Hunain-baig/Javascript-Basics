@@ -97,6 +97,19 @@
 
 
 
+// var city0 = "Atlanta";
+// var city1 = "Baltimore";
+// var city2 = "Chicago";
+// var city3 = "Denver";
+// var city4 = "Los Angeles";
+// var city5 = "Seattle";
+
+
+// var cities = ['karachi' , 'lahore' , 'islamabad' , 'shikarpur' , 20 , true , ['macharcolony' , 'fb area']]
+
+// console.log(cities[6][0]);
+// console.log(cities[6][0]);
+// console.log(cities.length)
 
 
 
