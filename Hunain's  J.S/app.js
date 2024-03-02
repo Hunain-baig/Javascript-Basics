@@ -725,7 +725,101 @@
 
 // -------------------------------------------------------------------------------------------------------------------------
 
-//! 
+
+//! NOW ITS TIME FOR MODERN JAVASCRIPT 
+//! Features of ECMA script alsa known as ES6
+
+//! LET VS CONST
+
+//! var ==> ko mai easily change kar sakta hun
+
+// var myName = 'Hunain baig'
+// console.log(myName);
+// myName = 'honey baig'
+// console.log(myName);
+
+//! let ==> let ki value mai chnage karskta apny blockscope mai .... usky kahi bhi let ko chnage nai kar sakty
+
+// let myName = "Hunain baig";
+// console.log(myName);
+// myName = "honey baig";
+// console.log(myName);
+
+
+//! const ==> once you assign the value in const you never chage it or redeclare 
+
+// const myName = "Hunain baig";
+// console.log(myName);
+// myName = "honey baig";  // erroe ajayegaa
+// console.log(myName);
+
+//! var ==> Function Scope --->  var not used nowadys
+//! lwt and const ==> Block scope
+  
+
+
+// function biodata() {
+//  var myFirstName = 'huanin';
+//  console.log(myFirstName);
+ 
+//  if(true){
+//   var myLastName = 'baig'
+// console.log('pehly show karwao firstname  ' + myLastName);
+// console.log('phirr show karwao lastname ' + myFirstName);
+//  }
+// console.log(`my first name ${myFirstName} then my last name ${myLastName}`);
+// }
+
+// biodata()
+
+
+//! agar ap var use karty ho variable ko declare karny k liye ap isy kahi bhi use kar sakty ho kahi bhi data change kar sakty ho yaha koi problem ------ problem let or cons mai ayegii jo sahi bhi hai ... ye hum agy dekhty
+
+//-----------------------------------------------------------------------------------------
+
+//! i use LET
+
+// function biodata() {
+//   let myFirstName = "huanin";
+//   console.log(myFirstName);
+
+//   if (true) {
+//     let myLastName = "baig";
+//     console.log("pehly show karwao firstname  " + myLastName);
+//     console.log("phirr show karwao lastname " + myFirstName);
+//   }
+//   console.log(myFirstName);
+//   console.log(myLastName);
+// }
+
+// biodata();
+
+
+//! simple mjhy erroe kaha ayega ---> meny ek function declare kiya us function mai if ki condition di or if mai ek let declare kiya ub mai is let ko usko blockscope tak console.log karwaskta hun agr mai usky block scope se bahir cosole.log karwaiunga tu mjhy error ayegaa let ki ek khaas baat yahi hai k wo apny blockscope tak rehta hai .... blockscope means jo bhi ho {} wo curly braces mai ho..            ub meny ek funtion banaya or usme ek let declare kiya ub meny if ki condiotion use to usky value ko if k block scope k bahir use nahi kr skta ... lekin meny ek function mai if ki condition dinaa matlab wo pora function kisi block scope mai hai tu waha let ki value jo function mai di wo if k baad kaam karegi q k wo block scope mai hai function ...... above example se or clear hogaa
+
+// -----------------------------------------------------------------------------------------------------
+
+
+//! i use const ..
+
+
+// function biodata() {
+//   const myFirstName = "huanin";
+//   console.log(myFirstName);
+
+//   if (true) {
+//     const myLastName = "baig";
+//     console.log("pehly show karwao firstname  " + myLastName);
+//     console.log("phirr show karwao lastname " + myFirstName);
+//   }
+//   console.log(myFirstName);
+//   console.log(myLastName);
+// }
+
+// biodata();
+
+
+// --------------------------------------------------------------------------------------------------
 
 
 
@@ -735,31 +829,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
