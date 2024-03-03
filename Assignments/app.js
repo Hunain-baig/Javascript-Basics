@@ -1,40 +1,40 @@
-// CHAPTER ONE:
-// Q1:
+//? CHAPTER ONE:
+//! Q1:
 
 // alert();
 
-// Q2:
+//! Q2:
 
 // alert('Error! Please enter a valid password');
 
-// Q3:
+//1 Q3:
 
 // alert('Welcome to JS land.. \n Happy coding!');
 
-// Q4:
+//! Q4:
 
 // alert('Welcome to JS land');
 
 // alert('Happy coding! \n Prevent this page from additional dialogs');
 
-// Q5: Ans is ---> Simple you create popup by usning console when you inspect the page, simply type alert('') and type message between the brackets
+//! Q5: Ans is ---> Simple you create popup by usning console when you inspect the page, simply type alert('') and type message between the brackets
 
-// CHAPTER TWO:
-// Q1:
+//? CHAPTER TWO:
+//! Q1:
 
 // var username = '';
 
-// Q2:
+//1 Q2:
 
 // var username = 'Honey Baig';
 
-// Q3:
+//! Q3:
 
 // var message = 'Hello world';
 
 // alert(message);
 
-// Q4:
+//! Q4:
 
 // var firstName = 'Jhon Doe';
 // alert(firstName)
@@ -51,31 +51,31 @@
 // var customMess = message + userName + banger;
 // alert(customMess);
 
-// Q5:
+//! Q5:
 
 // alert('Pizza \n Pizz \n Piz \n Pi \n P');
 
-// Q6:
+//! Q6:
 
 // var email = 'My email address is xunainali4@gmail.com';
 // alert(email)
 
-// Q7:
+//! Q7:
 
 // var book = 'i am tyring to learn from the book. A smarter \n way to learn javascript';
 // alert(book)
 
-// Q8:
+//! Q8:
 
 // document.body.innerHTML = 'Yah! i can write content through javascript';
 
-// Q9:
+//! Q9:
 
 // var charac = '';
 // alert(charac)
 
-// CHAPTER THREE:
-// Q1:
+//? CHAPTER THREE:
+//! Q1:
 
 // var age = 21;
 // alert('Your age is ' + age);
@@ -87,12 +87,12 @@
 // var birthyear = 2001;
 // document.body.innerHTML = 'My birth year is 2001 <br /> data type of my declared variable is number';
 
-// CHAPTER FOUR:
-//Q1:
+//? CHAPTER FOUR:
+//! Q1:
 
 // var a, b, c
 
-// Q2:
+//! Q2:
 // LEGAL VARIABLE
 
 // var myVariable
@@ -102,7 +102,7 @@
 // var my_variable
 // var va12riable
 
-// IILEGAL VARIABLE
+//! IILEGAL VARIABLE
 
 // var 12myVariable
 // var my Variable
@@ -110,12 +110,12 @@
 // var !myVariable
 // var @myVariable
 
-// Q3: Rules for variable
+//! Q3: Rules for variable
 // Ans: Varible can only start with letters not number
 //      No special characters use in the stating of variable except two characters i.e "$" and "_"
 //      Javascript is case sensitive programming language if you dont follow the syntax rules accuratley you will get Error!
 
-// CHAPTER FIVE:
+//? CHAPTER FIVE:
 // Q1:
 
 // Q2:
@@ -140,27 +140,27 @@
 // var num = +prompt ('Enter The Number ');
 // creatingTable(num)
 
-// Q5:
+//! Q5:
 
-// Q6:
+//! Q6:
 
-// Q7:
+//! Q7:
 
-// Q8:
+//! Q8:
 
-// Q9:
+//! Q9:
 
-// Q10:
+//! Q10:
 
-// Q11:
+//! Q11:
 
-// Q12:
+//! Q12:
 
-// Q13:
+//! Q13:
 
-// IF ELSE STATEMENT EXCERCISE:
+//? IF ELSE STATEMENT EXCERCISE:
 
-// Q1:
+//! Q1:
 
 // var number = +prompt('enter the number');
 
@@ -170,7 +170,7 @@
 // console.log('The number is not divisible by 3');
 // }
 
-// Q2:
+//! Q2:
 
 // var num = +prompt('Enter the number');
 
@@ -180,7 +180,7 @@
 //     console.log('The number you give is odd')
 // ]
 
-// Q3:
+//! Q3:
 
 // var age = +prompt('Enter the age');
 
@@ -190,7 +190,7 @@
 //     console.log('Too ypung');
 // }
 
-// Q4:
+//! Q4:
 
 // var userName = prompt('Enter the name');
 // var myNAme = 'hunain'
@@ -199,7 +199,7 @@
 // } else{
 // }
 
-// Q5:
+//! Q5:
 
 // var num = +prompt("Enter the number");
 // if (num % 3 !== 0) {
@@ -209,7 +209,7 @@
 //   console.log("Number is divisible by 3");
 // }
 
-// Q6:
+//! Q6:
 
 // function checkCharacterType(character) {
 //   var charCode = character.charCodeAt(0);
@@ -226,11 +226,11 @@
 // var input = prompt("enter the character");
 // var result = checkCharacterType(input);
 
-// Q7:
+//! Q7:
 
-// Q8:
+//! Q8:
 
-// Q9:
+//! Q9:
 
 // var year = +prompt('Enter the year');
 // if(year % 4 === 0 || year % 100 === 0 || year % 400 === 0 ){
@@ -239,7 +239,7 @@
 //     console.log('This year is not a leap year');
 // }
 
-// Q 10:
+//! Q 10:
 
 // var password1 = prompt('Enter password');
 // var password2 = prompt('Enter to confirm password');
@@ -250,7 +250,7 @@
 // console.log('Incorrect!');
 // }
 
-// Q11:
+//! Q11:
 
 // var userName = prompt('Enter username');
 // var firstName = 'hunain';
@@ -261,7 +261,7 @@
 //     console.log('You are not Hunain');
 // }
 
-// Q12:
+//! Q12:
 
 // var hour = +prompt("Enter the with respect to 24 hour's")
 
@@ -273,7 +273,7 @@
 //     console.log('Sahi time likh chomu!');
 // }
 
-// Q13:
+//! Q13:
 
 // var integer1 = +prompt('Enter the first integer!')
 // var integer2 = +prompt('Enter the second integer!')
@@ -288,7 +288,7 @@
 //     console.log('please put the corect integer');
 // }
 
-// Q14:
+//! Q14:
 
 // var num = +prompt('Enter the number');
 
@@ -302,7 +302,7 @@
 //     console.log('Please provide the number rather than give other symbols');
 // }
 
-// Q15:
+//! Q15:
 
 // var hour = +prompt("Enter the current hour");
 
@@ -322,10 +322,9 @@
 //   console.log("Enter the correct time!");
 // }
 
-// Q16:
+//! Q16:
 
-
-// Q17:
+//! Q17:
 
 // var character = prompt("Ente the character");
 
@@ -343,7 +342,7 @@
 //   console.log("Its not a vovel");
 // }
 
-// Q18:
+//! Q18:
 
 // var a = 10, b =8;
 // if(a>b){
@@ -352,7 +351,7 @@
 //     console.log('False');
 // }
 
-// Q19:
+//! Q19:
 
 // let month = prompt('Enter the month number(1--10)');
 // switch (month){
@@ -372,33 +371,158 @@
 //         console.log('May');
 //         break;
 //     case '6':
-//         console.log('June');        
+//         console.log('June');
 //         break;
 //     case '7':
 //         console.log('July');
 //         break;
 //     case '8':
-//         console.log('August');        
+//         console.log('August');
 //         break;
 //     case '9':
 //         console.log('September');
 //         break;
 //     case '10':
-//         console.log('October');      
+//         console.log('October');
 //         break;
 //     case '11':
 //         console.log('November');
 //         break;
 //     case '12':
 //         console.log('December');
-//         break;       
+//         break;
 
 //     default:
-//         console.log('Enter the valid month number');    
+//         console.log('Enter the valid month number');
 // }
 
-
-// Q20:
+//! Q20:
 
 // let age = prompt('Enter you age');
 // console.log(age >= 18 ? "You can vote" : "You can not vote");
+
+// --------------------------------------------------------------------------------------------------
+
+//* | IF STATEMENTS NESTED | ARRAYS |
+
+//? Q1:
+
+// let studentsName = [ ]
+
+//? Q2:
+
+// let studentsName = {}
+
+//? Q3:
+
+// let carBrand = [ 'tesla', 'bmw', 'honda', 'corolla', 'suzuki', 'yamaha'];
+
+//? Q4:
+
+// let studentAges = [ 21, 22, 24, 26, 27];
+
+//? Q5:
+
+// let truefalse = [true, false, true]
+
+// console.log(typeof truefalse);
+
+//? Q6:
+
+// let misxedArr = ['hunian', 'ali', 'baig', 24, 25, true, false];
+
+//? Q7:
+
+// let simArr = ['telenor', 'jazz', 'zong', 'ufobne'];
+
+//? Q8:
+
+// let qualifications = ['SSC', 'HSC', 'BSC', 'BS', 'B.COM', 'MS', 'M.PHIL', 'PHD']
+// let div = document.querySelector('div');
+
+// for(i=0; i<qualifications.length; i++){
+//     console.log(qualifications[i]);
+// div.innerHTML += `<div> ${qualifications[i]} </div>`
+// }
+
+//? Q9:
+
+//? Q10:
+
+// let favCars = ['audi', 'volvo', 'ford', 'lamborghini'];
+// console.log(`first index of array: ${favCars[0]}`);
+// console.log(`car at first index of array: ${favCars[0]}`);
+// console.log(`last index of array: ${favCars.length-1}`); // when you minus 1 form the favCars.length you obtained the index value!!
+// console.log(`car at first index of array: ${favCars[3]}`);
+
+//? Q11:
+
+// let students = ['hunain', 'ali', 'baig'];
+// let score = [350, 400, 500];
+// let percentage = score.map (score => (score/500) *100);
+
+// for(i=0; i <= 3; i++){
+//     console.log(`score of ${students[i]} is ${score[i]}. percentage ${percentage[i]}% `);
+// }
+
+//? Q12:
+
+//? Q13:
+
+// let fruits = ['strawberry','apple','orange','banana'];
+// let sortFruits = fruits.sort();
+// console.log(`Ordered fruit list ${sortFruits}`);
+
+//? Q14:
+
+// let fruits = ['strawberry','apple','orange','banana'];
+// let sortFruits = fruits.sort();
+// console.log(`Ordered fruit list ${sortFruits}`);
+
+//? Q15:
+
+// let cities = ['karachi','lahore','islamabad','quetta','pechawar'];
+// let selectedCities = cities.slice(2,4);
+// console.log(selectedCities);
+
+//? Q16:
+
+// let a = ["this", "is", "my", "cat"];
+// let joinA = a.join(" ");  // if we use single or double quote code will run
+// console.log(joinA);
+
+
+//? Q17:
+
+
+//? Q18:
+
+
+//? Q19:
+
+// let phoneBrands = ['apple', 'samsung','motorla','nokia','sony','haier','vivo'];
+// let select = document.querySelector('select');
+
+// for (i=0; i <phoneBrands.length; i++){
+//     select.innerHTML += `<option>${phoneBrands[i]}</option>`;
+// }
+
+//? Q20:
+
+// let nestedArr = [[]];
+
+//? Q21:
+
+// let matrix = [
+//   [1, 0, 1, 2], // index 0 ==> indices 0,1,2,3
+//   [0, 1, 2, 1], // index 1 ==> indices 0,1,2,3
+//   [2, 1, 0, 1], // index 2 ==> indices 0,1,2,3
+// ];
+// console.log(matrix[0][3]); 
+
+// ------------------------------------------------------------------------------------------------
+
+
+
+
+
