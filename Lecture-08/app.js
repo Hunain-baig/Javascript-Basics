@@ -36,6 +36,60 @@
 // }
 
 
+// 
+
+//? WHILE LOOP
+
+// let i = 0;
+// while (i <= 10) {
+//     console.log(i);
+//     i++
+// }
+
+                                                                                 
+
+//?
+
+
+
+//? Q1:
+
+// const tableNumber = +prompt('Enter the number');
+// const tableLength = +prompt('Enter the length');
+
+// for (i=1; i <= tableLength; i++){
+// console.log(`${tableNumber} x ${i} = ${i*tableLength}`);
+// }
+
+
+
+// const fruit = ['apple', 'banana', 'orange', 'strawberry'];
+
+// const firstDiv = document.querySelector('.one');
+// const secondDiv = document.querySelector('.index');
+
+// for(i=0; i<= fruit.length; i++){
+//     firstDiv.innerHTML += `<h1>${fruit[i]}</h1>`
+// secondDiv.innerHTML += ``
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

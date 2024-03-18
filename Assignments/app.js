@@ -459,7 +459,8 @@
 
 // let students = ['hunain', 'ali', 'baig'];
 // let score = [350, 400, 500];
-// let percentage = score.map (score => (score/500) *100);
+// let total = 500;
+// let percentage = [score/total*100, score/total*100, score/total*100 ]
 
 // for(i=0; i <= 3; i++){
 //     console.log(`score of ${students[i]} is ${score[i]}. percentage ${percentage[i]}% `);
@@ -491,12 +492,9 @@
 // let joinA = a.join(" ");  // if we use single or double quote code will run
 // console.log(joinA);
 
-
 //? Q17:
 
-
 //? Q18:
-
 
 //? Q19:
 
@@ -518,9 +516,399 @@
 //   [0, 1, 2, 1], // index 1 ==> indices 0,1,2,3
 //   [2, 1, 0, 1], // index 2 ==> indices 0,1,2,3
 // ];
-// console.log(matrix[0][3]); 
+// console.log(matrix[0][3]);
 
 // ------------------------------------------------------------------------------------------------
+
+//* LOOPS:
+
+//? Q1:
+
+// for (let i = 1; i <= 5; i++){
+// console.log(`Hello World ${i}`);
+// }
+
+//? Q2:
+
+// for (let i = 1; i<= 10; i++){
+// console.log(i);
+// }
+
+//? Q3:
+
+// const tableNumber = +prompt('enter the number');
+// const tableLength = +prompt('enter the length');
+
+// for (let i = 1; i <= tableLength; i++){
+//     console.log(`${tableNumber} x ${i} = ${tableNumber * i}`);
+// }
+
+//? Q4:
+
+// let a = ['nokia', 'samsung', 'apple', 'sony', 'huawei'];
+// const div = document.querySelector('div');
+
+// for (let i = 0; i < a.length; i++){
+// div.innerHTML += `<h1>${a[i]}</h1>`
+// }
+
+//? Q5:
+
+// let fruits = ['apple','banana','mango','orange','strawberry'];
+// const firstdiv = document.querySelector('.firstdiv');
+// const seconddiv = document.querySelector('.seconddiv');
+
+// for(let i =0; i < fruits.length; i++){
+// firstdiv.innerHTML += `<p>${fruits[i]}</p>`
+// seconddiv.innerHTML += `<p>element at index ${i} is ${fruits[i]}</p>`
+// }
+
+//? Q6:
+
+// const numberOfItems = +prompt('Enter the number of items');
+
+// const firstDiv = document.querySelector('#first');
+// const secondUl = document.querySelector('#second');
+
+// for (let i = 0 ; i < numberOfItems; i++){
+// const value = prompt(`Enter the value of index ${i}`);
+// secondUl.innerHTML += `<li>${value}</li>`
+// }
+
+// firstDiv.innerHTML += `<h1>Number Of Items: ${i}</h1>`
+
+//? Q7:
+
+// const first = document.querySelector(".first");
+// const second = document.querySelector(".second");
+// const third = document.querySelector(".third");
+// const fourth = document.querySelector(".fourth");
+// const fifth = document.querySelector(".fifth");
+
+// const counting = 10;
+// for (let i = 0; i <= counting; i++) {
+//   first.innerHTML += ` ${i} `;
+// }
+
+// const revCounting = 0;
+// for (let i = 10; i > revCounting; i--) {
+//     second.innerHTML += ` ${ i } `
+// }
+
+// const even = 10;
+// for(let i = 0; i <= even; i += 2){
+// third.innerHTML += ` ${ i } ` 
+// }
+
+// const odd = 19;
+// for(let i = 1; i <= odd; i += 2){
+// fourth.innerHTML += ` ${ i } ` 
+// }
+
+// const series = 20;
+// for (let i = 0; i <= series; i += 2) {
+//   fifth.innerHTML += ` ${ i }k, `;
+// }
+
+//? Q8:
+
+// const items = prompt('Serach for the items')
+// const arr = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+
+// if(arr.includes(items.toLocaleLowerCase())){
+// alert('Yes! Availbale')
+// }else{
+//     alert('Sorry! Not Available')
+// }
+
+//? Q9:
+
+// const arr = [24, 56, 87, 89, 98];
+// let largest = arr[0];
+// const firstdiv = document.querySelector('.one')
+// const seconddiv = document.querySelector('.two')
+
+
+// for (let i = 0; i < largest; i++){
+// if(arr[i] > largest){
+// largest = arr[i]
+// }
+// }
+
+// firstdiv.innerHTML = `Array Items: ${arr}`
+// seconddiv.innerHTML += `the largest number of array is ==> ${largest}`
+
+
+
+// console.log(largest);
+
+
+//? Q10:
+
+// const arr = [23, 56,89,98,12];
+// let smallArray = arr[0];
+
+// const firstdiv = document.querySelector('.three');
+// const seconddiv = document.querySelector('.four');
+
+
+// for(let i = 0; i < smallArray; i++){
+// if (arr[i] < smallArray) {
+//     smallArray = arr[i]
+// }
+// }
+
+// firstdiv.innerHTML = `Array Items: ${arr}`
+// seconddiv.innerHTML = `The smallest number is ==> ${smallArray}`;
+
+
+//? Q11:
+
+// const arr = [ 23 , 56 , 89 , 98 , 12 ];
+
+// let smallArray = arr[0];
+// let largestArray = arr[0];
+
+// const firstdiv = document.querySelector('.five');
+// const seconddiv = document.querySelector('.six');
+// const thirddiv = document.querySelector('.seven');
+
+
+// for(let i = 0; i < smallArray; i++){
+// if (arr[i] < smallArray) {
+//     smallArray = arr[i]
+// }
+// }
+
+// for (let i = 0; i < largestArray; i++){
+// if(arr[i] > largestArray){
+// largestArray = arr[i]
+// }
+// }
+
+// firstdiv.innerHTML = `Array Items: ${arr}`;
+// seconddiv.innerHTML = `The smallest number is ==> ${smallArray}`;
+// thirddiv.innerHTML = `The largest number is ==> ${largestArray}`;
+
+//? Q12:
+
+// const divv = document.querySelector('.awami')
+// const multiple = 100;
+// for(let i = 0; i <= multiple; i += 5){
+// divv.innerHTML += ` ${ i } ` 
+// }
+
+//? Q13:
+
+// const div2 = document.querySelector('.awami2')
+
+
+// let obj = {
+//     Students : "Scores",
+//     Ali : 58,
+//     Sami : 73,
+//     Taha : 89,
+//     Inam : 90
+// }
+
+// for (let key in obj){
+//     div2.innerHTML += `<h1>${key} ==> ${obj[key]}</h1>`
+// }
+
+//? Q14:
+
+
+
+
+//? Q15:
+
+// const div = document.querySelector('.awami');
+
+// const arr = [[1, 2, 3], [4, 5, 6], [7 , 8, 9]];
+
+// for (let i = 0; i <arr.length; i++){
+
+// }
+// console.log(arr);
+
+// div.innerHTML += `<h1>${arr[0]}</h1>`
+// div.innerHTML += `<h1>${arr[1]}</h1>`
+// div.innerHTML += `<h1>${arr[2]}</h1>`
+
+
+//? Q16:
+
+// const div = document.querySelector('.awami');
+
+// const user = +prompt('Enter the number');
+
+// for (let i = user; i > 0; i--){
+    // console.log(i-0.5);
+    
+//     div.innerHTML += `${i-0.5}`
+// }
+
+
+//? Q17:
+
+// let even = 0;
+// let odd = 0;
+
+// for(let i = 0; i <= 20; i++){
+// if(i % 2 === 0){
+//     console.log(`Even numbers = ${i}`);
+
+// }
+// else if(i % 2 !== 0){
+//     console.log(`Odd number = ${i}`);
+// }
+// }
+
+//? Q18:
+
+// let n = +prompt('Enter the value to calculate odd integer multiplication');
+// let mul = 1;
+
+// for(let i = 1; i <= n; i++){
+//     if(i % 2 !== 0){
+        // console.log(i);
+//         mul = mul * i;
+
+//     }
+// }
+// console.log(`The product of odd integer = ${mul}`);
+
+
+
+//? Q19:
+
+// const val = +prompt('Enter the postive number')
+
+// for(let i = val; i > 1; i-- ){
+//     console.log('*'.repeat(i-1));
+// }
+
+
+//? Q20:
+
+// //* a:
+
+// for(let i = 4; i < 5; i++){
+// console.log(
+//   `${"*".repeat(i)}\n${"*".repeat(i)}\n${"*".repeat(i)}\n${"*".repeat(i)}`
+// );
+// }
+
+// for (let j = 4; j < 5; j++) {
+//   console.log("*".repeat(j));
+// }
+
+
+//* b:
+
+// const val = +prompt('Enter the number');
+
+// for(let i = 1; i < val; i++){
+//     console.log('*'.repeat(i));
+// }
+
+//* c:
+
+// const val = +prompt('Enter the number')
+// for(let i = val; i>1; i--){
+//     console.log('*'.repeat(i-1));
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let user = {
+//     name : 'm. hunina ali baig',
+//     email : 'xunainali4@gmail.com',
+//     age : 21,
+//     greetUser : function(){
+//         console.log('Hello');
+//     },
+
+//     fruits: ['apple', 'banana', 'orange', {
+//         name : 'usman',
+//         fruits2: ['apple', {
+//         name: 'ammar'
+//         }]
+//     } ]
+
+// }
+
+// user.greetUser()
+
+
+// console.log(user.fruits[3].fruits2[1].name)
+
+
+
+
+
+// const div = document.querySelector('.awami');
+
+// let students = [
+//     {name : 'Alice', age:20, grade: 'A'},
+//     {name : 'Bob', age:22, grade: 'B'},
+//     {name : 'Mutahir', age:21, grade: 'C'}
+// ];
+
+// for(let i = 0; i < students.length; i++){
+// console.log(students[i].name);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
