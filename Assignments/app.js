@@ -597,12 +597,12 @@
 
 // const even = 10;
 // for(let i = 0; i <= even; i += 2){
-// third.innerHTML += ` ${ i } ` 
+// third.innerHTML += ` ${ i } `
 // }
 
 // const odd = 19;
 // for(let i = 1; i <= odd; i += 2){
-// fourth.innerHTML += ` ${ i } ` 
+// fourth.innerHTML += ` ${ i } `
 // }
 
 // const series = 20;
@@ -628,7 +628,6 @@
 // const firstdiv = document.querySelector('.one')
 // const seconddiv = document.querySelector('.two')
 
-
 // for (let i = 0; i < largest; i++){
 // if(arr[i] > largest){
 // largest = arr[i]
@@ -638,10 +637,7 @@
 // firstdiv.innerHTML = `Array Items: ${arr}`
 // seconddiv.innerHTML += `the largest number of array is ==> ${largest}`
 
-
-
 // console.log(largest);
-
 
 //? Q10:
 
@@ -651,7 +647,6 @@
 // const firstdiv = document.querySelector('.three');
 // const seconddiv = document.querySelector('.four');
 
-
 // for(let i = 0; i < smallArray; i++){
 // if (arr[i] < smallArray) {
 //     smallArray = arr[i]
@@ -660,7 +655,6 @@
 
 // firstdiv.innerHTML = `Array Items: ${arr}`
 // seconddiv.innerHTML = `The smallest number is ==> ${smallArray}`;
-
 
 //? Q11:
 
@@ -672,7 +666,6 @@
 // const firstdiv = document.querySelector('.five');
 // const seconddiv = document.querySelector('.six');
 // const thirddiv = document.querySelector('.seven');
-
 
 // for(let i = 0; i < smallArray; i++){
 // if (arr[i] < smallArray) {
@@ -695,13 +688,12 @@
 // const divv = document.querySelector('.awami')
 // const multiple = 100;
 // for(let i = 0; i <= multiple; i += 5){
-// divv.innerHTML += ` ${ i } ` 
+// divv.innerHTML += ` ${ i } `
 // }
 
 //? Q13:
 
 // const div2 = document.querySelector('.awami2')
-
 
 // let obj = {
 //     Students : "Scores",
@@ -717,7 +709,17 @@
 
 //? Q14:
 
+// let stopppingValue = prompt("Enter the stopping value");
+// let arr = [12, 34, 5, 67, 89, 92];
 
+// for (let i = 0; i < arr[i]; i++) {
+  // console.log(arr[i]);
+
+//   if (stopppingValue == arr[i]) {
+//       break
+//     }
+//     console.log(arr[i]);
+// }
 
 
 //? Q15:
@@ -735,7 +737,6 @@
 // div.innerHTML += `<h1>${arr[1]}</h1>`
 // div.innerHTML += `<h1>${arr[2]}</h1>`
 
-
 //? Q16:
 
 // const div = document.querySelector('.awami');
@@ -743,11 +744,10 @@
 // const user = +prompt('Enter the number');
 
 // for (let i = user; i > 0; i--){
-    // console.log(i-0.5);
-    
+// console.log(i-0.5);
+
 //     div.innerHTML += `${i-0.5}`
 // }
-
 
 //? Q17:
 
@@ -771,14 +771,12 @@
 
 // for(let i = 1; i <= n; i++){
 //     if(i % 2 !== 0){
-        // console.log(i);
+// console.log(i);
 //         mul = mul * i;
 
 //     }
 // }
 // console.log(`The product of odd integer = ${mul}`);
-
-
 
 //? Q19:
 
@@ -787,7 +785,6 @@
 // for(let i = val; i > 1; i-- ){
 //     console.log('*'.repeat(i-1));
 // }
-
 
 //? Q20:
 
@@ -802,7 +799,6 @@
 // for (let j = 4; j < 5; j++) {
 //   console.log("*".repeat(j));
 // }
-
 
 //* b:
 
@@ -819,46 +815,6 @@
 //     console.log('*'.repeat(i-1));
 
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // let user = {
 //     name : 'm. hunina ali baig',
@@ -879,12 +835,7 @@
 
 // user.greetUser()
 
-
 // console.log(user.fruits[3].fruits2[1].name)
-
-
-
-
 
 // const div = document.querySelector('.awami');
 
@@ -897,20 +848,3 @@
 // for(let i = 0; i < students.length; i++){
 // console.log(students[i].name);
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
